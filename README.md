@@ -1,3 +1,4 @@
+Preview link: https://asif-weather-application.netlify.app/
 # Weather App Pro 🌦
 
 A clean, modern weather application built with HTML, CSS, and JavaScript using the OpenWeather API.
