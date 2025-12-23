@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App Pro</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main class="card">
+    <h1>🌦 Weather App</h1>
+
+    <div class="search">
+      <input id="cityInput" type="text" placeholder="Enter city (e.g., Delhi)"/>
+      <button id="btn">Get Weather</button>
+    </div>
+
+    <section id="weather" class="weather hidden">
+      <h2 id="cityName"></h2>
+      <div class="row">
+        <img id="icon" alt="weather icon"/>
+        <div>
+          <p class="temp"><span id="temp"></span> °C</p>
+          <p id="desc"></p>
+        </div>
+      </div>
+      <div class="stats">
+        <div>💧 Humidity: <span id="humidity"></span>%</div>
+        <div>💨 Wind: <span id="wind"></span> m/s</div>
+      </div>
+    </section>
+
+    <p id="msg" class="msg"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
